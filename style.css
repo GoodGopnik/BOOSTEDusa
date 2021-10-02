@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --black: #000;
+    --gray: #F7F7F7;
+    --wiht: #fff;
+    --orang: #FF4A32;
+}
+a {
+    text-decoration: none;
+}
+h1,h2.h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* -- header-img -- */
+.header-top-one {
+    height: 30px;
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-top-one p {
+    font-size: 12px;
+    color: var(--wiht);
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.header-menu__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-menu__nav ul {
+    display: flex;
+}
+.header-menu__nav li {
+    margin: 0 22px;
+}
+.header-menu__nav a {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: var(--black);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.header-menu__total-img-nav {
+    display: flex;
+}
+.header-menu__logo {
+    margin-right: 125px;
+}
+.header-menu__icons {
+    display: flex;
+    align-items: center;
+}
+.header-menu__icons img:first-child {
+    margin-right: 10px;
+}
+/* -- header-img -- */
+.header-img {
+    background: url(./img/Rectangle.png) center no-repeat;
+    min-height: 810px;
+}
+.header-img__about-block-text {
+    padding-top: 53px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header-img__about-block-text h1 {
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-size: 44px;
+    color: var(--black);
+}
+.header-img__about-block-text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--black);
+    font-family: 'Roboto';
+    margin-top: 15px;
+}
+.header-img__about-block-text div {
+    margin-top: 22px;
+}
+.header-img__about-block-text button {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: var(--wiht);
+    background: var(--orang);
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    padding: 5px 40px;
+}
+.header-img__about-block-text button:first-child {
+    margin-right: 12px;
+}
