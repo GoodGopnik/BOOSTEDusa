@@ -255,3 +255,32 @@ button {
     padding: 5px 40px;
     margin-top: 20px;
 }
+/* boosted-rev */
+.boosted-rev {
+    margin: 45px 0 45px 0;
+}
+.boosted-rev__block-img-text {
+    display: flex;
+    justify-content: center;
+}
+.boosted-rev__img {
+    display: flex;
+    justify-content: space-between;
+}
+.boosted-rev__img img {
+    margin: 0 10px 0 10px;
+}
+.boosted-rev__text {
+    max-width: 340px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.boosted-rev__text h2 {
+    margin: 0 0 21px 0;
+    color: var(--black);
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
