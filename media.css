@@ -53,4 +53,10 @@
         margin-right: 0;
         margin-bottom: 20px;
     }
+    .wrapper .electric-skateboards__text h2 {
+        font-size: 30px;
+    }
+    .wrapper .electric-skateboards__text p {
+        font-size: 12px;
+    }
 }
