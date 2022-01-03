@@ -33,8 +33,9 @@ button {
     margin: 0 auto;
 }
 .container {
-    max-width: 1180px;
+    max-width: 1170px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 /* -- header-img -- */
 .header-top-one {
@@ -88,7 +89,7 @@ button {
 }
 /* -- header-img -- */
 .header-img {
-    background: url(./img/Rectangle.png) center no-repeat;
+    background: url(./img/Rectangle.png) center/cover no-repeat;
     min-height: 810px;
 }
 .header-img__about-block-text {
@@ -127,4 +128,86 @@ button {
 }
 .header-img__about-block-text button:first-child {
     margin-right: 12px;
+}
+/* sponsors */
+.sponsors {
+    background: var(--black);
+    padding: 15px 0;
+}
+.sponsors__block-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* boosted */
+.boosted {
+    padding: 0 5px 0 5px;
+}
+.boosted__text-blok {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 685px;
+    position: relative;
+}
+.boosted__text-blok::before {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #CFCFCF;
+    transform:translate(-50%,-50%);
+    bottom: -25px;
+}
+.boosted__text-blok h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: var(--black);
+    margin-top: 52px;
+    margin-bottom: 17px;
+}
+.boosted__text-blok p {
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 18px;
+}
+.boosted__img-block {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+}
+.boosted__img-block_block-1 {
+    background: url(./img/Rectangle6.png) center/cover no-repeat;
+    max-width: 580px;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 0;
+}
+.boosted__img-block_block-2 {
+    background: url(./img/Rectangle7.png) center/cover no-repeat;
+    max-width: 580px;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boosted__img-block h2 {
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--wiht);
+    margin: 11px 0 14px 0;
+}
+.boosted__img-block p {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: var(--wiht);
+    font-weight: 400;
 }
