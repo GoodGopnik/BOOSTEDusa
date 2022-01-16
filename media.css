@@ -22,6 +22,34 @@
     .header-menu__nav {
         margin-bottom: 10px;
     }
+    .boosted-rev__block-img-text {
+        flex-direction: column;
+        align-items: center;
+    }
+    .boosted-rev__img {
+        flex-direction: column;
+        align-items: center;
+    }
+    .boosted-rev__img img {
+        max-width: 100%;
+    }
+    .wrapper .boosted-rev__img img {
+        margin: 10px 0 10px 0;
+    }
+    .wrapper .boosted-rev {
+        margin: 20px 0 20px 0;
+        padding: 0 5px 0 5px;
+    }
+    .boosted-rev__text button {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .wrapper .boosted-rev__text h2 {
+        margin: 0 auto;
+    }
+    .wrapper .boosted-rev__text {
+        margin-left: 0;
+    }
 }
 @media(max-width:775px) {
     .sponsors__block-img {
