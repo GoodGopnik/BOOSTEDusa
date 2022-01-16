@@ -284,3 +284,26 @@ button {
     font-weight: 400;
     font-family: 'Roboto';
 }
+.boosted-rev__text p {
+    max-width: 339px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--black);
+    line-height: 22px;
+    font-family: 'Roboto';
+}
+.boosted-rev__text button {
+    max-width: 101px;
+    height: 33px;
+    background: var(--orang);
+    color: var(--wiht);
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 18px;
+}
