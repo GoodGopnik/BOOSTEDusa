@@ -307,3 +307,49 @@ button {
     cursor: pointer;
     margin-top: 18px;
 }
+/* shop-img */
+.shop-img {
+    display: flex;
+    justify-content: center;
+}
+.shop-img__img-block_1 .shop-img__text-blokc > h2, .shop-img__img-block_2 .shop-img__text-blokc > h2, .shop-img__img-block_3 .shop-img__text-blokc > h2 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--wiht);
+    font-family: 'Roboto';
+}
+.shop-img__img-block_1 .shop-img__text-blokc > p, .shop-img__img-block_2 .shop-img__text-blokc > p, .shop-img__img-block_3 .shop-img__text-blokc > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--wiht);
+    font-family: 'Roboto';
+    margin-top: 15px;
+}
+.shop-img__img-block_1 {
+    background: url(./img/Rectangle11.png) center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 480px;
+}
+.shop-img__img-block_2 {
+    background: url(./img/Rectangle12.png) center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 480px;
+}
+.shop-img__img-block_3 {
+    background: url(./img/Rectangle13.png) center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 480px;
+}

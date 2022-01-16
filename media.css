@@ -50,6 +50,14 @@
     .wrapper .boosted-rev__text {
         margin-left: 0;
     }
+    .shop-img {
+        flex-direction: column;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .shop-img__img-block_1, .shop-img__img-block_2, .shop-img__img-block_3 {
+        margin: 10px 0 10px 0px;
+    }
 }
 @media(max-width:775px) {
     .sponsors__block-img {
