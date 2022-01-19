@@ -2,6 +2,12 @@
     .wrapper .header-menu__logo {
         margin-right: 0;
     }
+    .wrapper .video-block iframe {
+        margin: 10px 10px 10px 10px;
+    }
+    .wrapper .video {
+        margin: 0 0 0 0;
+    }
 }
 @media(max-width:991px) {
     .header-menu {

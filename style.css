@@ -353,3 +353,15 @@ button {
     text-align: center;
     height: 480px;
 }
+/* video */
+.video {
+    margin: 55px 0 64px 0;
+}
+.video-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.video-block iframe {
+    margin: 0 10px 0 10px;
+}
