@@ -365,3 +365,70 @@ button {
 .video-block iframe {
     margin: 0 10px 0 10px;
 }
+/* carusel */
+.carusel__text h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--black);
+    font-weight: 700;
+    font-family: 'Roboto';
+    position: relative;
+}
+.carusel__text h2::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: var(--gray);
+    bottom: -22px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.carusel__slider p, .carusel__slider h3 {
+    margin: 0;
+    padding: 0;
+}
+.carusel__img-text h3 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: var(--orang);
+    padding-bottom: 3px;
+}
+.carusel__img-text span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black);
+    font-family: 'Roboto';
+    margin-right: 4px;
+}
+.carusel__img-text span:nth-child(2n+1) {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--orang);
+    font-family: 'Roboto';
+}
+.carusel__img-text .carusel__sold {
+    color: rgba(0, 0, 0, 0.3);
+}
+.carusel__sliders {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
